@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cart Quantity</title>
+		<style>
+			button{
+				background-color: grey;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>
+			Cart Quantity
+		</p>
+
+		<button onclick="
+		console.log(`Cart Quantity: ${quantity}`);
+		">
+			Show Quantity
+		</button>
+
+		<button onclick="
+		if(quantity + 1 > 10) alert('The cart is full!');
+		else {
+			quantity++;
+			console.log(`Cart Quantity: ${quantity}`);
+		}
+		">
+			Add to Cart
+		</button>
+
+		<button onclick="
+		if(quantity + 2 > 10) alert('The cart is full!');
+		else {
+			quantity += 2;
+			console.log(`Cart Quantity: ${quantity}`);
+		}
+		">
+			+2
+		</button>
+
+		<button onclick="
+		if(quantity + 3 > 10) alert('The cart is full!');
+		else {
+			quantity += 3;
+			console.log(`Cart Quantity: ${quantity}`);
+		}
+		">
+			+3
+		</button>
+
+		<button onclick="
+		if(quantity + 4 > 10) alert('The cart is full!');
+		else {
+			quantity += 4;
+			console.log(`Cart Quantity: ${quantity}`);
+		}
+		">
+			+4
+		</button>
+
+		<button onclick="
+		if(quantity + 5 > 10) alert('The cart is full!');
+		else {
+			quantity += 5;
+			console.log(`Cart Quantity: ${quantity}`);
+		}
+		">
+			+5
+		</button>
+
+		<button onclick="
+		if(quantity - 1 < 0) alert('Not enough items in the cart!');
+		else {
+			quantity--;
+			console.log(`Cart Quantity: ${quantity}`);
+		}
+		">
+			Remove from Cart
+		</button>
+
+		<button onclick="
+		if(quantity - 2 < 0) alert('Not enough items in the cart!');
+		else {
+			quantity -= 2;
+			console.log(`Cart Quantity: ${quantity}`);
+		}
+		">
+			-2
+		</button>
+
+		<button onclick="
+		if(quantity - 3 < 0) alert('Not enough items in the cart!');
+		else {
+			quantity -= 3;
+			console.log(`Cart Quantity: ${quantity}`);
+		}
+		">
+			-3
+		</button>
+
+		<button onclick="
+		quantity = 0;
+		console.log('Cart was reset.')
+		console.log(`Cart Quantity: ${quantity}`);
+		">
+			Reset Cart
+		</button>
+
+		<script>
+			let quantity = 0;
+		</script>
+	</body>
+</html>

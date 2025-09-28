@@ -1,0 +1,103 @@
+# JavaScript Course - SuperSimpleDev Tutorial
+
+This repository contains my code and exercises while following the [JavaScript Full Course (2024)](https://www.youtube.com/watch?v=EerdGm-ehJQ) by SuperSimpleDev.
+
+## 📁 Repository Structure
+
+The files are organized by lesson number, showing progression from basic HTML/CSS integration to advanced JavaScript concepts:
+
+### Lesson 04: HTML, CSS & First JavaScript
+- [04-website.html](04-website.html) - Basic HTML/CSS with first JavaScript alert
+- [04-exercise.html](04-exercise.html) - Product page with interactive buttons
+
+### Lesson 05: Variables & Basic Operations
+- [05-variables.html](05-variables.html) - Variable declarations and operations
+- [05-exercise.html](05-exercise.html) - Name and cost calculations with template literals
+- [05-calculator-v1.html](05-calculator-v1.html) - Basic calculator using string concatenation
+- [05-cart-quantity-v1.html](05-cart-quantity-v1.html) - Simple cart quantity tracker
+
+### Lesson 06: Booleans & Conditionals
+- [06-booleans.html](06-booleans.html) - If/else statements and conditional logic
+- [06-exercise.html](06-exercise.html) - Time-based greetings and discount logic
+- [06-rock-paper-scissors-v1.html](06-rock-paper-scissors-v1.html) - Rock Paper Scissors with inline logic
+- [06-coin-flip-v1.html](06-coin-flip-v1.html) - Basic coin flip game
+- [06-cart-quantity-v2.html](06-cart-quantity-v2.html) - Cart with validation (max 10 items)
+
+### Lesson 07: Functions
+- [07-exercises.html](07-exercises.html) - Various function exercises (temperature/length converters)
+- [07-calculator-v2.html](07-calculator-v2.html) - Refactored calculator with [`updateCalculation`](07-calculator-v2.html) function
+- [07-cart-quantity-v3.html](07-cart-quantity-v3.html) - Cart refactored with [`updateCartQuantity`](07-cart-quantity-v3.html) function
+- [07-rock-paper-scissors-v2.html](07-rock-paper-scissors-v2.html) - Game refactored with [`playGame`](07-rock-paper-scissors-v2.html) and [`pickComputerMove`](07-rock-paper-scissors-v2.html) functions
+
+### Lesson 08: Objects & Local Storage
+- [08-objects.html](08-objects.html) - Object creation, manipulation, and property access
+- [08-exercise.html](08-exercise.html) - Object exercises with product comparisons
+- [08-calculator-v3.html](08-calculator-v3.html) - Calculator with localStorage persistence
+- [08-coin-flip-v2.html](08-coin-flip-v2.html) - Coin flip with score tracking using objects
+- [08-rock-paper-scissors-v3.html](08-rock-paper-scissors-v3.html) - Complete game with score persistence
+
+## 🎯 Key Learning Concepts
+
+### Variables & Data Types
+- `let` and `const` declarations
+- String interpolation with template literals
+- Number operations and calculations
+
+### Control Flow
+- Boolean logic and comparisons
+- `if/else if/else` statements
+- Conditional (ternary) operators
+
+### Functions
+- Function declarations and expressions
+- Parameters and return values
+- Code organization and reusability
+
+### Objects & Data Persistence
+- Object creation and property access
+- JSON serialization with `JSON.stringify()` and `JSON.parse()`
+- localStorage for data persistence
+- Object methods and dynamic properties
+
+### DOM Manipulation
+- Event handling with `onclick`
+- `alert()` for user feedback
+- `console.log()` for debugging
+
+## 🚀 Project Evolution
+
+### Calculator Project
+1. **v1**: Basic string concatenation for building expressions
+2. **v2**: Refactored with `updateCalculation()` function
+3. **v3**: Added localStorage persistence to remember calculations
+
+### Rock Paper Scissors Game
+1. **v1**: Inline logic with repeated code for each choice
+2. **v2**: Organized with `playGame()` and `pickComputerMove()` functions
+3. **v3**: Complete game with score tracking, reset functionality, and localStorage
+
+### Cart Quantity System
+1. **v1**: Basic increment/decrement operations
+2. **v2**: Added validation for cart limits (0-10 items)
+3. **v3**: Refactored with single `updateCartQuantity()` function
+
+## 🎮 Interactive Projects
+
+- **Rock Paper Scissors** - Complete game with persistent scoring
+- **Calculator** - Functional calculator with memory
+- **Cart System** - Shopping cart quantity management
+- **Coin Flip Game** - Simple probability game with win/loss tracking
+
+## 💾 Technologies Used
+
+- HTML5
+- CSS3 (basic styling)
+- Vanilla JavaScript
+- localStorage API
+- DOM Events
+
+## 📝 Notes
+
+This repository demonstrates the progression from basic JavaScript concepts to building interactive web applications. Each version shows incremental improvements in code organization, functionality, and user experience.
+
+The exercises follow best practices for learning JavaScript fundamentals before moving on to frameworks or advanced topics.
