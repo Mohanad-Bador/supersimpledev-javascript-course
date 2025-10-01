@@ -59,6 +59,9 @@ The files are organized by lesson number, showing progression from basic HTML/CS
 - [12-exercise.html](12-exercise.html) - Advanced function exercises including timers and intervals
 - [12-rock-paper-scissors-v6.html](12-rock-paper-scissors-v6.html) - Final game version with auto-play feature
 
+### Lesson 18: Backend Communication & HTTP Requests
+- [18-exercise.html](18-exercise.html) - HTTP request exercises with XMLHttpRequest, fetch API, and async/await
+
 ## 🎯 Key Learning Concepts
 
 ### Variables & Data Types
@@ -103,6 +106,16 @@ The files are organized by lesson number, showing progression from basic HTML/CS
 - `clearTimeout()` and `clearInterval()` for cleanup
 - Function scope and closure concepts
 - Event-driven programming patterns
+
+### HTTP Requests & Backend Communication
+- XMLHttpRequest for traditional AJAX requests
+- Fetch API for modern HTTP requests
+- Async/await for handling asynchronous operations
+- Promise-based programming patterns
+- Error handling with try/catch blocks
+- CORS (Cross-Origin Resource Sharing) concepts
+- HTTP status codes and error responses
+- JSON data exchange with backend services
 
 ## 🚀 Project Evolution
 
@@ -152,10 +165,13 @@ The files are organized by lesson number, showing progression from basic HTML/CS
 - DOM Events and Manipulation
 - Timing functions (setTimeout, setInterval)
 - Array methods and functional programming concepts
+- HTTP Request APIs (XMLHttpRequest, Fetch)
+- Async/Await and Promise handling
+- Backend communication and API integration
 
 ## 📝 Notes
 
-This repository demonstrates the progression from basic JavaScript concepts to building complex interactive web applications. Each version shows incremental improvements in code organization, functionality, user experience, and visual design.
+This repository demonstrates the progression from basic JavaScript concepts to building complex interactive web applications with backend communication capabilities. Each version shows incremental improvements in code organization, functionality, user experience, and visual design.
 
 The exercises follow best practices for learning JavaScript fundamentals, including:
 - Separation of concerns (HTML, CSS, JavaScript)
@@ -164,5 +180,7 @@ The exercises follow best practices for learning JavaScript fundamentals, includ
 - DOM manipulation and responsive design
 - Data persistence and state management
 - Error handling and input validation
+- Asynchronous programming patterns
+- Backend API integration and HTTP communication
 
-The projects evolve from simple proof-of-concepts to production-ready applications with professional styling and robust functionality.
+The projects evolve from simple proof-of-concepts to production-ready applications with professional styling, robust functionality, and modern web development practices including backend integration and asynchronous data handling.
